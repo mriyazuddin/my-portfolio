@@ -1,5 +1,3 @@
-// /server/storage.ts
-
 import { type User, type InsertUser } from "@shared/schema";
 import { randomUUID } from "crypto";
 

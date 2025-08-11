@@ -1,5 +1,3 @@
-// /shared/schema.ts
-
 import { sql } from "drizzle-orm";
 import { pgTable, text, varchar } from "drizzle-orm/pg-core";
 import { createInsertSchema } from "drizzle-zod";

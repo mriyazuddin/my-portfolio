@@ -66,11 +66,11 @@ export const contactInfo: ContactInfo = {
   email: "contact@riyaz.blog",
   phone: "+91 863-922-7538",
   location: "Hyderabad, India",
-  linkedin: "LinkedIn", // URL would be added when available
+  linkedin: "https://www.linkedin.com/in/mriyazuddin1/", // URL would be added when available
 };
 
 // Professional summary from the resume
-export const professionalSummary = `Experienced Customer Success and Technical Support Specialist with over 5 years of success managing customer relationships, resolving complex platform issues, and driving product adoption in SaaS and digital platforms. Skilled in cross-functional collaboration, customer communication, and data analysis. Adept at simplifying technical concepts, supporting campaign delivery, and contributing to support process improvement.`;
+export const professionalSummary = `Experienced Customer Success and Technical Support Engineer with over 5 years of success managing customer relationships, resolving complex WordPress/WooCommerce issues, and driving product adoption. Skilled in cross-functional collaboration, customer communication, and data analysis. Adept at simplifying technical concepts, supporting campaign delivery, and contributing to support process improvement.`;
 
 // Areas of expertise from the resume
 export const expertiseAreas: ExpertiseArea[] = [
@@ -90,14 +90,15 @@ export const expertiseAreas: ExpertiseArea[] = [
 
 // Technical skills with proficiency levels
 export const technicalSkills: TechnicalSkill[] = [
-  { name: "WordPress & WooCommerce", level: 95, category: "expert" },
-  { name: "HTML, CSS & JavaScript", level: 85, category: "advanced" },
-  { name: "APIs & Integration", level: 80, category: "advanced" },
-  { name: "Git & GitHub", level: 70, category: "intermediate" },
+  { name: "WordPress & WooCommerce", level: 85, category: "advanced" },
+  { name: "HTML, CSS & JavaScript", level: 80, category: "advanced" },
+  // { name: "APIs & Integration", level: 80, category: "advanced" },
+  { name: "Git & GitHub", level: 65, category: "intermediate" },
   { name: "DNS & Hosting", level: 90, category: "advanced" },
-  { name: "Browser DevTools", level: 85, category: "advanced" },
+  { name: "Browser DevTools", level: 65, category: "intermediate" },
   { name: "Zendesk", level: 95, category: "expert" },
-  { name: "Office Applications", level: 90, category: "advanced" },
+  { name: "Office Applications", level: 95, category: "expert" },
+  { name: "Domains", level: 90, category: "expert"},
 ];
 
 // Tools and platforms
@@ -132,7 +133,7 @@ export const achievements: Achievement[] = [
   },
   {
     title: "Team Training & Development",
-    description: "Delivered multiple trainings to the team, resulting in improvement in resolution time",
+    description: "Delivered multiple trainings to upskill the team, resulting in improvement in resolution rate and time",
     icon: "chalkboard-teacher",
     metric: "Multiple",
   },
@@ -185,7 +186,7 @@ export const experiences: Experience[] = [
     location: "Hyderabad",
     startDate: "August 2005",
     endDate: "September 2016",
-    description: "Started as a support agent on the front lines (Call Center) supporting providing IT support. Went to lead a team later.",
+    description: "Started as a support agent on the front lines (Call Center) providing IT support. Went on to lead a team later.",
     achievements: [],
   },
 ];

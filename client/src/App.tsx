@@ -4,6 +4,7 @@ import { QueryClientProvider } from "@tanstack/react-query";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "@/components/theme-provider";
+import { CookieBanner } from "@/components/cookie-banner";
 import { HomePage } from "@/pages/home";
 import NotFound from "@/pages/not-found";
 
@@ -17,7 +18,7 @@ function Router() {
     <Switch>
       {/* Home page - main portfolio page */}
       <Route path="/" component={HomePage} />
-      
+
       {/* Fallback to 404 page for unmatched routes */}
       <Route component={NotFound} />
     </Switch>
@@ -28,7 +29,7 @@ function Router() {
  * Main App Component
  * Root component that provides all necessary context providers
  * and sets up the application structure
- * 
+ *
  * Providers included:
  * - QueryClientProvider: For server state management with TanStack Query
  * - ThemeProvider: For dark/light theme management
@@ -42,6 +43,7 @@ function App() {
         <TooltipProvider>
           <Toaster />
           <Router />
+          <CookieBanner />
         </TooltipProvider>
       </ThemeProvider>
     </QueryClientProvider>
